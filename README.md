@@ -135,4 +135,9 @@ Make sure you set the correct parameters for your motors and pins, and you shoul
 
 ## Example project using 2 CD/DVD drives
 
-**Coming soon!**
+**Coming soon**
+
+Here is a YouTube video showing what it looks like: 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=h1t6wFMVYFk
+" target="_blank"><img src="http://img.youtube.com/vi/h1t6wFMVYFk/0.jpg" 
+alt="Tutorial coming soon" width="800" height="600" border="10" /></a>
