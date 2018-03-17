@@ -36,10 +36,10 @@ This modules acts as an abstraction layer for **DC motors** and **stepper motors
 |-|-|-|-|-|
 |`pins`|`Array`|yes|`[15, 11, 13, 12]`|A list of GPIO pin numbers (3 for DC motors, 4 for stepper motors)|
 |`gpio`|`rpi-gpio` object|yes| - |A reference to `rpi-gpio`|
-|`type`|`String`|no| `"stepper"` |Type of motor: `"stepper"` or "dc"|
-|`delay`|`Integer`|no| `5` |Delay between each step (in milliseconds)|
+|`type`|`String`|no| `"stepper"` |Type of motor: `"stepper"` or `"dc"` (default)|
+|`delay`|`Integer`|no| `5` |Delay between each step (in milliseconds, `5` by default)|
 |`name`|`String`|no| `"myMotor"` |Name of the motor, for debugging purposes|
-|`logs`|`Boolean`|no| `false` |Whether or not to enable logs|
+|`logs`|`Boolean`|no| `false` |Whether or not to enable logs (`true` by default)|
 
 #### Methods
 
