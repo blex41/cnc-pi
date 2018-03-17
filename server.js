@@ -40,7 +40,7 @@ const cnc = CNC({
 		delay: 10,
 		type: 'dc',
 		gpio: gpio
-	},
+	}
 });
 
 
