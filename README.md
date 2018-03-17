@@ -52,7 +52,7 @@ This modules acts as an abstraction layer for **DC motors** and **stepper motors
 
 #### Example usage
 
-```
+```javascript
 const gpio = require('rpi-gpio');
 const Motor = require('./MotorController.js');
 // Define the motor
@@ -96,7 +96,7 @@ This modules acts as an abstraction layer for a CNC machine. It uses the **Motor
 
 #### Example usage
 
-```
+```javascript
 const gpio = require('rpi-gpio');
 const CNC = require('./CNCController.js');
 // Define the CNC
