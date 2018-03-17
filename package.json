@@ -1,0 +1,30 @@
+{
+  "name": "cnc-pi",
+  "version": "1.0.0",
+  "description": "CNC Controller for Raspberry Pi",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blex41/cnc-pi.git"
+  },
+  "keywords": [
+    "cnc",
+    "raspberry",
+    "pi"
+  ],
+  "author": "blex41",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blex41/cnc-pi/issues"
+  },
+  "homepage": "https://github.com/blex41/cnc-pi#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "rpi-gpio": "^0.9.1"
+  }
+}
