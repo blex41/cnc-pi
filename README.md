@@ -44,7 +44,7 @@ This modules acts as an abstraction layer for **DC motors** and **stepper motors
 #### Methods
 
 - **init()**
-  Checks parameters and sets every GPIO pin to DIR_OUT mode.
+  Checks parameters and sets every GPIO pin to `DIR_OUT` mode.
 - **forward(steps)**
   Rotates the motor in forward direction for a given number of steps.
 - **backward(steps)**
