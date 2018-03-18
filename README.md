@@ -3,6 +3,24 @@
 
 CNC Controller for Raspberry Pi, using NodeJS
 
+Here is a YouTube video showing what it looks like: 
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=tv5MCBYMYBg
+" target="_blank"><img src="http://img.youtube.com/vi/tv5MCBYMYBg/0.jpg" 
+alt="Tutorial coming soon" width="400" height="280" border="10" /></a>
+
+## Table of contents
+
+* ["It works on my machine"](#it-works-on-my-machine)
+* [Setup](#setup)
+* [Dependency](#dependency)
+* [What's inside](#whats-inside)
+  * [MotorController.js](#motorcontrollerjs)
+  * [CNCController.js](#cnccontrollerjs)
+  * [server.js](#serverjs)
+* [Example project using 2 CD/DVD drives](#example-project-using-2-cddvd-drives) *(coming soon)*
+
+
 ## "It works on my machine"
 
 I only tested this on a Raspberry Pi 2 Model B with this setup:
@@ -16,6 +34,9 @@ At the root of the project, run:
 
 `npm install`
 
+## Dependency
+
+This project requires the [rpi-gpio](https://www.npmjs.com/package/rpi-gpio) npm module.
 
 ## What's inside
 
@@ -136,8 +157,3 @@ Make sure you set the correct parameters for your motors and pins, and you shoul
 ## Example project using 2 CD/DVD drives
 
 **Tutorial coming soon**
-
-Here is a YouTube video showing what it looks like: 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=h1t6wFMVYFk
-" target="_blank"><img src="http://img.youtube.com/vi/h1t6wFMVYFk/0.jpg" 
-alt="Tutorial coming soon" width="800" height="600" border="10" /></a>
